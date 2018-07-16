@@ -4,3 +4,5 @@
 
 
 # response泛型处理
+问题
+* [@ApiResponses and @ApiResponses in swagger ](https://stackoverflow.com/questions/43368627/apiresponses-and-apiresponses-in-swagger)
