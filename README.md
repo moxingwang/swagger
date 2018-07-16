@@ -1,11 +1,22 @@
 > 项目中你可能已经使用到了swagger，或许你并没有对它过于留意，比如说springfox、swagger-springmvc、swagger-ui他们之间的关系是什么，springfox原理是什么。
 
 # 先看一个pull下来就能启动的spring-boot，swagger-ui集成demo
-* git pull
+> git项目地址[https://github.com/moxingwang/swagger.git](https://github.com/moxingwang/swagger.git)
 
-* swagger访问地址
+* 获取代码
+````
+git pull https://github.com/moxingwang/swagger.git
+````
+* 启动
+````
+cd swagger
+mvn spring-boot:run
+````
+* 访问
 
 [http://localhost:8080/sw/swagger-ui.html](http://localhost:8080/sw/swagger-ui.html)
+
+
 
 
 # response泛型处理
