@@ -21,15 +21,6 @@ public class SwaggerConfig {
     @Value("${swagger.switch}")
     private boolean swaggerSwitch;
 
-/*    @Bean
-    public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2)
-                .select()
-                .apis(RequestHandlerSelectors.any())
-                .paths(PathSelectors.any())
-                .build();
-    }*/
-
     @Bean
     public Docket api() {
         Docket docket = new Docket(DocumentationType.SWAGGER_2);
@@ -47,7 +38,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("swagger接口测试").description("swagger接口测试")
                 .termsOfServiceUrl("http://www-03.ibm.com/software/sla/sladb.nsf/sla/bm?Open")
-                .license("China Red Star Licence Version 1.0").licenseUrl("#").version("1.0").build();
+                .license("swagger 接口测试demo Licence Version 1.0").licenseUrl("#").version("1.0").build();
     }
 
 }

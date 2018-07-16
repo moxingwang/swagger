@@ -13,10 +13,20 @@ public class Order {
     private String id;
     @ApiModelProperty(value = "名称")
     private String name;
+    @ApiModelProperty(value = "店铺名称")
+    private String shopName;
 
     public Order(String id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public String getShopName() {
+        return shopName;
+    }
+
+    public void setShopName(String shopName) {
+        this.shopName = shopName;
     }
 
     public String getId() {
