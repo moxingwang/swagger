@@ -16,6 +16,8 @@ mvn spring-boot:run
 
 [http://localhost:8080/sw/swagger-ui.html](http://localhost:8080/sw/swagger-ui.html)
 
+![](https://github.com/moxingwang/swagger/blob/master/souce/swagger-index.png?raw=true)
+
 
 
 
