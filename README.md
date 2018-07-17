@@ -50,7 +50,21 @@ mvn spring-boot:run
 ````
 
 
-# 搞明白
+# 搞明白swagger，springfox是什么
+#### swagger
+> Swagger 是一款目前世界最流行的API管理工具，是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。文档提供了一个方法，我们可以用指定的 JSON 或者 YAML 摘要来描述你的 API，包括了比如 names、order 等 API 信息。你可以通过一个文本编辑器来编辑 Swagger 文件，或者你也可以从你的代码注释中自动生成。各种工具都可以使用 Swagger 文件来生成互动的 API 文档。详细介绍参考[What Is Swagger?](https://swagger.io/docs/specification/2-0/what-is-swagger/)
+
+Swagger拥有众多不同语言和平台的开源实现与工具，他有很多实现方式，非常方便，并且支持语言特别多，详细请查看（一定要看一眼，就知道他有多强大）[Tools and Integrations](https://swagger.io/tools/open-source/open-source-integrations/)。
+
+![](https://github.com/moxingwang/swagger/blob/master/souce/swagger-intergrations.png?raw=true)
+
+这里也可以参考[Swagger Annotation 详解（建议收藏）](https://www.jianshu.com/p/b0b19368e4a8)这篇文章查看相关几个组件的中文介绍。
+
+
+#### springfox
+> springfox是java对swagger的一个具体实现。springfox的前身是swagger-springmvc，用于springmvc与swagger的整合。它内部会自动解析Spring容器中Controller暴露出的接口，并且也提供了一个界面用于展示或调用这些API。
+
+springfox的原理
 
 [http://springfox.github.io/springfox/](http://springfox.github.io/springfox/)
 [https://swagger.io/](https://swagger.io/)
@@ -68,7 +82,7 @@ mvn spring-boot:run
 
 [API管理工具Swagger介绍及Springfox原理分析](https://yq.aliyun.com/articles/599809?utm_content=m_1000002417)
 
-[]()
+[Swagger Annotation 详解（建议收藏）](https://www.jianshu.com/p/b0b19368e4a8)
 []()
 
 
