@@ -1,5 +1,3 @@
-> 使用swagger-ui你应该要关注的问题
-
 > 项目中你可能已经使用到了swagger，或许你并没有对它过于留意，比如说springfox、swagger-springmvc、swagger-ui他们之间的关系是什么，springfox原理是什么。
 
 # 先看一个pull下来就能启动的spring-boot，swagger-ui集成demo
