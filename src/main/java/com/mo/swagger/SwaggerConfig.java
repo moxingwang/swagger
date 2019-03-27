@@ -31,6 +31,8 @@ public class SwaggerConfig {
         }
 
         docket.apiInfo(apiInfo()).select().paths(PathSelectors.any()).build();
+        //指定报名
+        //docket.apiInfo(apiInfo()).select().apis(RequestHandlerSelectors.basePackage("com.chinaredstar.controller")).paths(PathSelectors.any()).build();
 
         return docket;
     }
